@@ -5,7 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-
+//make a diamond out of *
 namespace The_For_Loop_Test_No._1
 {
     class Program
@@ -23,7 +23,8 @@ namespace The_For_Loop_Test_No._1
             {
                 for (int j = puser_; j > i; j--)
                 {
-                    Console.Write(" ");
+                    
+                   Console.Write(" ");
                 }
 
                 for (int k = i; k > 0; k--)
